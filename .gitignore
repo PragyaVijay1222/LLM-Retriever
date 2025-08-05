@@ -1,0 +1,49 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+.env.*
+
+# Python virtual environments
+venv/
+.venv/
+env/
+.llm_retrieval_env/
+
+# VSCode settings
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# PyCharm
+.idea/
+
+# Cache
+.cache/
+.huggingface/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# HuggingFace Transformers Cache
+~/.cache/huggingface/
+~/.cache/torch/
+
+# Railway specific (Optional, if you have local Railway configs)
+.railway/
+
+# Local FAISS Index (if you switch from Pinecone)
+*.faiss

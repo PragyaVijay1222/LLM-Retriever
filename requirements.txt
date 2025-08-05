@@ -1,0 +1,8 @@
+fastapi[all]
+uvicorn
+python-dotenv
+sentence-transformers
+PyMuPDF
+pinecone
+tqdm
+requests
